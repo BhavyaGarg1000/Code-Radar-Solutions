@@ -3,8 +3,8 @@
 int main(){
     int i,N;
     scanf("%d",&N);
-    for(i=1; i<=N; i++){
-        printf("2 x %d = %d\n",i,i*2);
+    for(i=1; i<=10; i++){
+        printf("%d x %d = %d\n",N,i,N*i);
     }
     return 0;
 }
