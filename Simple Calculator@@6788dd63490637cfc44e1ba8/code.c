@@ -7,7 +7,7 @@ int main(){
     printf("%d", a+b);
     break;
      case '-':
-    printf("%d", a=b);
+    printf("%d", a-b);
     break;
      case '*':
     printf("%d", a*b);
@@ -15,7 +15,7 @@ int main(){
      case '/':
     printf("%d", a/b);
      break;
-      default:
+    default:
     printf("error");
      break;
      
